@@ -26,7 +26,6 @@ from pyfiglet import figlet_format
 
 _ = input(figlet_format('ready?', font='starwars', width=500))
 
-
 ROULETTE = True
 
 presenters_per_meeting = 2
