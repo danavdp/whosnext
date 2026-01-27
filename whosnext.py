@@ -28,7 +28,7 @@ _ = input(figlet_format('ready?', font='starwars', width=500))
 
 ROULETTE = True
 
-presenters_per_meeting = 2
+presenters_per_meeting = 1
 
 current_mc = 'Dana van der Pol'
 current_members = {
