@@ -44,7 +44,8 @@ current_members = {
     "Luna Compen": "2025-11-11",
     "Siva Machavaram": "2025-11-11",
     "Floris Mostert": "2025-11-11",
-    "Haye Boonstra": "2025-12-02"
+    "Haye Boonstra": "2025-12-02",
+    "Philipp Jonas": "2025-01-16"
 }
 with open("presentations.json", "r", encoding="utf-8") as file:
     presentations = json.load(file)
