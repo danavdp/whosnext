@@ -28,7 +28,7 @@ _ = input(figlet_format('ready?', font='starwars', width=500))
 
 ROULETTE = True
 
-presenters_per_meeting = 1
+presenters_per_meeting = 2
 
 current_mc = 'Dana van der Pol'
 current_members = {
@@ -45,7 +45,8 @@ current_members = {
     "Siva Machavaram": "2025-11-11",
     "Floris Mostert": "2025-11-11",
     "Haye Boonstra": "2025-12-02",
-    "Philipp Jonas": "2025-01-16"
+    "Philipp Jonas": "2026-01-16",
+    "Joris Scholten": "2026-02-10"
 }
 with open("presentations.json", "r", encoding="utf-8") as file:
     presentations = json.load(file)
